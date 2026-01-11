@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>REGISTRATION PAGE</h1>
+    <a href="1home.html">Navigate To Home page</a>
+    <br>
+    <br>
+    <a href="2education.html">Navigate To Education page</a>
+    
+    </header>
+    <Br>
+    <br>
+    <main>
+<fieldset>
+    <legend>ENTER YOUR USERNAME AND PASSWROD BELOW</legend>
+        <form action="/action.php">    <!--action attribute hota hai -->
+        <input type="text" name="username" placeholder="username"> <br><br>
+        <input type="password" name="password" placeholder="password">
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Choose Your Class</legend>
+    <label for="101">
+    <input type="radio" value="class X" name="class" id="101">class x     <br>
+    </label>
+
+    <label for="102">
+    <input type="radio" value="class XI" name="class" id="102">class xi  <br>
+    </label>
+
+    <label for="103">
+    <input type="radio" value="class XII" name="class"id="103">class xii
+    </label>
+</fieldset>
+<br> <br>
+
+
+<fieldset>
+    <legend>Select Your Subject</legend>
+    <label for="Math">
+    <input type="checkbox" value="Math" name="subject" id="Math"> Math
+    </label>
+<br> <br>
+
+    <label for="Science">
+    <input type="checkbox" value="Science" name="subject" id="Science"> Science
+    </label>
+<br> <br>
+
+    <label for="English">
+    <input type="checkbox" value="English" name="subject" id="English"> English
+    </label>
+<br> <br>
+
+    <label for="Hindi">
+    <input type="checkbox" value="Hindi" name="subject" id="Hindi"> Hindi
+    </label>
+<br> <br>
+</fieldset>
+
+<fieldset>
+    <legend>Select State</legend>
+<select name="State" id="State">
+    <option value="">state</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Bihar">Bihar</option>
+    <option value="etc">etc</option>
+</select>
+</fieldset>
+<br><br>
+
+<textarea name="Feedback" id ="104" placeholder="please give ur feedback here" rows="3"></textarea>
+<br><br>
+<input type="Submit" value="Submit">
+
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
